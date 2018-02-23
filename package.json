@@ -1,0 +1,60 @@
+{
+  "name": "permutation-iterator",
+  "version": "0.1.0",
+  "description": "Iterate by permutation in a list",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && nyc ava -v"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melkir/permutation-iterator.git"
+  },
+  "keywords": [
+    "array",
+    "generator",
+    "iterator",
+    "permutation"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*",
+    "codecov": "^3.0.0",
+    "nyc": "^11.4.1",
+    "xo": "*"
+  },
+  "author": {
+    "name": "melkir",
+    "email": "mail@thibaultvieux.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melkir/permutation-iterator/issues"
+  },
+  "xo": {
+    "space": true,
+    "prettier": true,
+    "rules": {
+      "eqeqeq": [
+        "error",
+        "smart"
+      ],
+      "no-eq-null": "off"
+    }
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "bracketSpacing": true
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
+  "homepage": "https://github.com/melkir/permutation-iterator#readme"
+}
